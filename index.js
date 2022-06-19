@@ -1,4 +1,4 @@
-const PORT = 3002;
+
 const axios = require("axios");
 const cheerio = require("cheerio");
 const express = require("express");
@@ -33,7 +33,7 @@ app.get("/", async (req, res) => {
     });
   }
 });
-
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () =>
   console.log(`The server is active and running on port ${PORT}`)
 );

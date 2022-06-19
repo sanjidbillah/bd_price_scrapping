@@ -4,7 +4,7 @@
   "description": "Dor is dam of every bangladeshi agriculture products update api",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
