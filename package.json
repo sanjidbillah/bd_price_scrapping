@@ -1,0 +1,29 @@
+{
+  "name": "dor",
+  "version": "1.0.0",
+  "description": "Dor is dam of every bangladeshi agriculture products update api",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdsami/dor.git"
+  },
+  "keywords": [
+    "Dor",
+    "Dam"
+  ],
+  "author": "mdsami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdsami/dor/issues"
+  },
+  "homepage": "https://github.com/mdsami/dor#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
